@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "com.workshop",
-      scalaVersion := "2.12.3",
+      scalaVersion := "2.12.16",
       version := "0.1.0-SNAPSHOT"
     )),
     name := "Scala Workshop",
