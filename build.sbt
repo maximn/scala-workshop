@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).
     )),
     name := "Scala Workshop",
     libraryDependencies ++= Seq(
-      "joda-time" % "joda-time" % "2.9.9",
+      "joda-time" % "joda-time" % "2.12.2",
       "org.specs2" %% "specs2-core" % "3.9.4" % Test,
       "org.specs2" %% "specs2-scalacheck" % "3.9.4" % Test
     )
